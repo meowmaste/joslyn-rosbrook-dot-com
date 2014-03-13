@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+}
+
+nav {
+  a, a:visited{
+    color: #000;
+  }
+  a.selected, a:hover {
+    color: tomato;
+  }
+}
+
+#about-wrap {
+  background-color: #000;
+  color: #fff;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+#portfolio-wrap {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
