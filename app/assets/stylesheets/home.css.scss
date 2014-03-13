@@ -3,7 +3,10 @@ a {
 }
 
 nav {
-  a, a:visited{
+  text-align: left;
+  padding: 10px 0;
+  margin: 20px 0 0 20px;
+  a, a:visited {
     color: #000;
   }
   a.selected, a:hover {
@@ -14,8 +17,28 @@ nav {
 #about-wrap {
   background-color: #000;
   color: #fff;
+  font-family: 'Kite One', sans-serif;
 
   h1 {
+    font-size: 2em;
+    line-height: 1.75em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    line-height: 1.3em;
+  }
+
+  h5 {
+    font-size: 1em;
+    line-height: 2em;
+  }
+
+  p {
+    margin: 2.5% 5%;
+  }
+
+  h1, h3, h5 {
     text-align: center;
   }
 }
@@ -24,4 +47,11 @@ nav {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding: 20px 0;
+  background-color: grey;
 }
