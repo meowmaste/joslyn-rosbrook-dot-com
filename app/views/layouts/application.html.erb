@@ -7,8 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body class="<%= body_class %>">
-
-<%= yield %>
+  <header>
+    <nav>
+      <ul>
+        <li>Projects</li>
+        <li>About</li>
+        <li>Musings</li>
+      <ul>
+    </nav>
+  </header>
+  <%= yield %>
+  <footer>
+    <p>&copy; 2014 Joslyn Rosbrook.</p>
+  </footer>
 
 </body>
 </html>
