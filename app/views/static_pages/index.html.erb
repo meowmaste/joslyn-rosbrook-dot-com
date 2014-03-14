@@ -1,38 +1,39 @@
 <section>
   <div id="about-wrap">
     <h1>Hi there!</h1>
+    <%= image_tag("cssisawesome.jpg", alt: "Joslyn Rosbrook")%>
     <p>My name is Joslyn. I'm a Seattle based Ruby on Rails developer with a <strong>strong</strong> affinity for the front-end and user experience.</p>
     <p>When I'm not on my computer, you can find me on my yoga mat or curled up under a pile of blankets (but usually the computer finds its way there as well).</p>
     <p>I recently graduated Code Fellows and now I'd like to use my passion for design and development to help <b>YOU</b>!</p>
     <div class="contact">
       <h3>Let's chat?</h3>
-        <h5 class="email">joslyn@joslynrosbrook.com</h5>
-        <div class="social-icons">
-          <a href="http//twitter.com/JoslynRosbrook"></a>
-          <a href="http//github.com/meowmaste"></a>
-          <a href="http//linkedin.com/in/JoslynRosbrook"></a>
+         <div class="social-icons">
+          <a href="http://www.twitter.com/joslynrosbrook" style="color:dodgerblue; font-size: 50px" class="fa fa-twitter"></a>
+          <a href="http://www.github.com/meowmaste" style="color:indigo; font-size: 50px" class="fa fa-github"></a>
+          <a href="http://www.linkedin.com/in/joslynrosbrook" style=" color:dimgray; font-size: 50px" class="fa fa-linkedin"></a>
         </div>
+        <h5 class="email">joslyn@joslynrosbrook.com</h5>
     </div>
   </div>
 </section>
 <div id="portfolio-wrap">
   <section>
-    <ul>
+    <ul id="gallery">
       <li>
         <%= link_to "PINDD", "#" %>
-          <%= image_tag("PINDD.png", alt: "Post-It Note Driven Development")%>
+          <%= image_tag("pindd.png", alt: "Post-It Note Driven Development")%>
       </li>
       <li>
         <%= link_to "Solar System", "#" %>
-          <%= image_tag("SolarSystem.png", alt: "Solar System")%>
+          <%= image_tag("solarsystem.png", alt: "Solar System")%>
       </li>
       <li>
         <%= link_to "Ploppy Cat", "#" %>
-          <%= image_tag("PloppyCat.png", alt: "Play Ploppy Cat")%>
+          <%= image_tag("ploppycat.png", alt: "Play Ploppy Cat")%>
       </li>
       <li>
         <%= link_to "Sync Cats", "#" %>
-          <%= image_tag("Sync-Cats.png", alt: "Sync Cats")%>
+          <%= image_tag("sync-cats.png", alt: "Sync Cats")%>
       </li>
     </ul>
   </section>

@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.1.0'
 
+gem 'font-awesome-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
 gem 'minitest-rails'
