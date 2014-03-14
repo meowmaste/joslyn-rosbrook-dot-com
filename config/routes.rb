@@ -7,7 +7,10 @@ Joslynrosbrookdotcom::Application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-
+  get '/pindd' => 'static_pages#pindd'
+  get '/ploppycat' => 'static_pages#ploppy_cat'
+  get '/solarysystem' => 'static_pages#solar_system'
+  get '/sync-cats' => 'static_pages#sync_cats'
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
