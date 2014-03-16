@@ -2,7 +2,7 @@
   background: url(image_path('universeback.jpg')) no-repeat center center fixed;
   background-size: cover;
   color: #3D1066;
-  font-family: 'Kite One', sans-serif;
+  font-family: 'Spinnaker', cursive;
 
   img {
     display: block;
@@ -17,13 +17,13 @@
   }
 
   h3 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     line-height: 1.3em;
     margin: 0;
   }
 
   h5 {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1em;
     padding-bottom: 15px;
     margin: 0;
@@ -31,6 +31,7 @@
 
   p {
     margin: 2.5% 5%;
+    font-size: 1.25em;
   }
 
   h1, h3, h5 {
