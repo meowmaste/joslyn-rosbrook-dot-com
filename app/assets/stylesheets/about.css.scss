@@ -8,6 +8,7 @@
     display: block;
     margin: 0 auto;
     width: 25%;
+    border-radius: 35%;
   }
 
   h1 {
@@ -27,6 +28,11 @@
     line-height: 1em;
     padding-bottom: 15px;
     margin: 0;
+
+    a {
+      color: black;
+      text-shadow: 2px 2px grey;
+    }
   }
 
   p {
