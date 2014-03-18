@@ -1,0 +1,16 @@
+@media screen and (min-width: 480px) {
+  .primary {
+    width: 47.5%;
+    float: left;
+  }
+
+  .secondary {
+    width: 47.5%;
+    float: right;
+    padding-top: 57px;
+
+    p {
+      padding-bottom: 57px;
+    }
+  }
+}

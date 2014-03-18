@@ -1,11 +1,6 @@
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  width: 100%;
-}
-
 #portfolio-wrap {
   width: 100%;
+  clear: both;
   margin: 0 auto;
   padding: 0;
   font-family: 'Spinnaker', sans-serif;
@@ -40,7 +35,7 @@ header {
 
   li {
     display: inline-block;
-    width: 45.5%;
+    width: 45.25%;
     margin: 2%;
   }
 }
