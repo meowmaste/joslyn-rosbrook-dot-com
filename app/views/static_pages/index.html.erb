@@ -23,8 +23,10 @@
   <h2>from the developer, <a href="http://joslynrosbrook.com/about">Joslyn Rosbrook</a></h2>
   <ul id="gallery">
     <li>
-      <%= link_to "PINDD", pindd_path %>
+      <%= link_to pindd_path do %>
+        PINDD
         <%= image_tag("pindd.png", alt: "Post-It Note Driven Development")%>
+        <% end %>
     </li>
     <li>
       <%= link_to "Solar System", solarsystem_path %>
