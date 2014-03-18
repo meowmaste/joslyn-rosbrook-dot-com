@@ -15,11 +15,6 @@
   }
 
   #gallery li {
-    width: auto;
-    display: block;
-  }
-
-  #gallery li {
     display: inline-block;
     width: 45.25%;
     margin: 2%;
