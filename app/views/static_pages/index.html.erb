@@ -26,11 +26,13 @@
       <%= link_to pindd_path do %>
         PINDD
         <%= image_tag("pindd.png", alt: "Post-It Note Driven Development")%>
-        <% end %>
+      <% end %>
     </li>
     <li>
-      <%= link_to "Solar System", solarsystem_path %>
+      <%= link_to solarsystem_path do %>
+        Solar System
         <%= image_tag("solarsystem.png", alt: "Solar System")%>
+      <% end %>
     </li>
     <li>
       <%= link_to "Ploppy Cat", ploppycat_path %>
