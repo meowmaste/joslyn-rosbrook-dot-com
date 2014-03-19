@@ -2,6 +2,8 @@
   font-family: 'Spinnaker', sans-serif;
   background-color: #F5FAFF;
   color: #3D1066;
+  position: relative;
+  z-index: 1;
 
   .project-header {
     float: none;
