@@ -1,4 +1,20 @@
-<section id="pindd-wrap">
-  <h1>PINDD - Post-It Note Driven Development</h1>
-    <h3>An app in which ideas and reminders can be shared between users on virtual sticky notes.</h3>
-</section>
+<div class="project">
+  <header class="project-header">
+    <h1>PINDD - Post-It Note Driven Development</h1>
+      <h3>An app in which ideas and reminders can be shared between users on virtual sticky notes.</h3>
+  </header>
+  <section class="project-details">
+    <div class="img-container", style="background-color:#D79BEE;">
+      <%= image_tag("pindd.png", class: "main-photo", alt: "Post-It Note Driven Development")%>
+      <%= image_tag("pindd-phone.png", class: "mobile-photo", alt: "Phone Layout")%>
+    </div>
+    <div class="text-block">
+      <p><a href="www.pindd.herokuapp.com">This is an app</a> I made in project week with fellow classmate, <a href="https://github.com/orangeninjamidget">Lillian Ng</a>, for <a href="codefellows.org">Code Fellows.</a> We enjoyed the app so much we decided to continue adding features after our course ended!</p>
+      <p>This app allows users to manage tasks and ideas in a dynamic way. Users can sign in and create tasks as sticky notes on an online display board. Users can also create groups and add other users in order to share tasks. Users can see real-time updates as tasks shared with other users are checked off or deleted.</p>
+      <p>The app is responsive and built using Ruby on Rails and hosted on Heroku. Other technologies used include: HTML5 Web Sockets, CSS3, Bootstrap, Travis Continuous Integration, jQuery, and JavaScript.</p>
+    </div>
+    <div class="img-container", style="background-color:#5FA2EB;">
+      <%= image_tag("pindd-group.png", class: "full-photo", alt: "Group Layout")%>
+    </div>
+  </section>
+</div>
