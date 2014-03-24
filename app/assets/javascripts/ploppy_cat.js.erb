@@ -1,9 +1,7 @@
 $( function() {
-
 if ($("#screen").length === 0) {
     return false;
 }
-
 var DEBUG = false;
 var SPEED = 450;
 var GRAVITY = 40;
@@ -11,8 +9,19 @@ var FLAP = 620;
 var SPAWN_RATE = 1 / 1;
 var OPENING = 140;
 
-
-
+WebFontConfig = {
+    google: { families: [ 'Press+Start+2P::latin' ] },
+    active: main
+};
+(function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+})();
 
 function main() {
 
@@ -34,7 +43,6 @@ var game = new Phaser.Game(
     false,
     false
 );
-
 function preload() {
     var assets = {
         spritesheet: {
@@ -59,6 +67,8 @@ function preload() {
         });
     });
 }
+
+
 
 var gameStarted,
     gameOver,

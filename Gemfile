@@ -6,7 +6,6 @@ gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
 gem 'minitest-rails'
 gem 'rails', '4.0.3'
-gem 'turbolinks'
 
 group :production do
   gem 'pg'
