@@ -15,12 +15,16 @@
       <% end %>
     </li>
     <li>
-      <%= link_to "Ploppy Cat", ploppycat_path %>
+      <%= link_to ploppycat_path do %>
+        Ploppy Cat
         <%= image_tag("ploppycat.png", alt: "Play Ploppy Cat")%>
+      <% end %>
     </li>
     <li>
-      <%= link_to "Sync Cats", sync_cats_path %>
+      <%= link_to sync_cats_path do %>
+        Sync Cats
         <%= image_tag("sync-cats.png", alt: "Sync Cats")%>
+      <% end %>
     </li>
   </ul>
 </section>
