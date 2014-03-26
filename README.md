@@ -11,4 +11,6 @@ Rails 4.03
 An effort to build a dynamic portfolio with the best practices and cleanest code I could muster.
 
 Technologies and Concepts Practiced:
-Capybara, Minitest (TDD/BDD), Responsive Design, Heroku Deployment
+Responsive Design, Heroku Deployment, JavaScript/jQuery
+
+![ScreenShot](http://imgur.com/4Bj6orM.png)
